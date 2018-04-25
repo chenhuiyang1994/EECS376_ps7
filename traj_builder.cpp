@@ -37,7 +37,7 @@ TrajBuilder::TrajBuilder()  {
     dt_ = default_dt; //0.02; //send desired-state messages at fixed rate, e.g. 0.02 sec = 50Hz
     //dynamic parameters: should be tuned for target system
     accel_max_ = default_accel_max; //0.5; //1m/sec^2
-    alpha_max_ = default_alpha_max; //0.2; //1 rad/sec^2
+    alpha_max_ = default_alpha_max; //0.2; //1 rad/sec^2 
     speed_max_ = default_speed_max; //1.0; //1 m/sec
     omega_max_ = default_omega_max; //1.0; //1 rad/sec
     path_move_tol_ = default_path_move_tol; //0.01; // if path points are within 1cm, fuggidaboutit   
