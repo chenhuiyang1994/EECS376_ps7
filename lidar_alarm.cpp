@@ -35,7 +35,7 @@ void laserCallback(const sensor_msgs::LaserScan& laser_scan) {
         // what is the index of the ping that is straight ahead?
         // BETTER would be to use transforms, which would reference how the LIDAR is mounted;
         // but this will do for simple illustration
-        ping_index_ = (int) ((0 -angle_max_)/angle_increment_);
+        ping_index_ = (int) ((0 -angle_max_)/angle_increment_); 
       
         
     }
